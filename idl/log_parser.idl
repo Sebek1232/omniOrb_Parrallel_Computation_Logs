@@ -1,0 +1,7 @@
+#ifndef __Log_Parser_IDL__
+#define __Log_Parser_IDL__
+interface Log_Parser {
+  string getLogLine(in long pos);
+};
+
+#endif  
