@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "string_view": "cpp",
+        "*.tcc": "cpp",
+        "string": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "iosfwd": "cpp",
+        "regex": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "bitset": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "iostream": "cpp"
+    }
+}
