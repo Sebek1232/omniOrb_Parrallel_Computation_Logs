@@ -19,7 +19,6 @@
 #else
 #  include <iostream.h>
 #endif
-string reg = "[A-Z]{3,}";
 
 
 //returns a vector of words that make up a log line
@@ -66,7 +65,6 @@ const void writeLinesToCsvFile(string fileName, string time, string numOfError)
 //write to file used by task 3
 const void writeNumOfTypes(string fileName, string type, string num)
 {
-  cout << "here" << endl;
   ofstream task3;
   task3.open(fileName, ios::app);
   task3 << type << "," << num << endl;
@@ -221,7 +219,6 @@ const void task3(Log_Parser_var parserRef, int startLine, int endLine, int clien
 {
   string fileName = "task3_client" + to_string(client);
   remove(fileName.c_str());
-  cout << fileName << endl;
   vector<vector<string>> lines;
   for (CORBA::ULong count=startLine; count<endLine; count++)
   { 
