@@ -1,4 +1,4 @@
-####omniORB Distributed Computing
+# omniORB Distributed Computing
 # Sebastian Greczek
 # AWS Deployment Video : https://youtu.be/RDzb-JpqSNM
 ## Installation
